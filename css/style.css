@@ -21,6 +21,11 @@
 
 body {
   background-color: #d0d0d0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Gelasio", serif;
 }
 
 .container {
@@ -32,4 +37,17 @@ body {
 
 header {
   border-top: 5px solid #894aa3;
+}
+
+a {
+  color: #894aa3;
+}
+
+nav a {
+  color: #666;
+  text-decoration: none;
+}
+
+.quote {
+  background-color: #ebebea;
 }
