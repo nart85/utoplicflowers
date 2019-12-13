@@ -28,11 +28,17 @@ h1 {
   font-family: "Gelasio", serif;
 }
 
+#page {
+  box-shadow: 10px 10px 27px 0px rgb(144, 148, 142);
+  color: rgba(144, 148, 142, 0.5);
+}
+
 .container {
   background-color: #fff;
   width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
 }
 
 header {
@@ -50,4 +56,10 @@ nav a {
 
 .quote {
   background-color: #ebebea;
+  text-align: center;
+  padding: 20px 10%;
+}
+
+.quote p {
+  line-height: 25px;
 }
